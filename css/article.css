@@ -1,9 +1,52 @@
 /* All CSS styles go here */
 
-/* Quicksand Font */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9); /* Add a transparent black overlay */
+  z-index: -1;
+}
+
+
+div {
+  padding: 20px;
+ }
+
+
+
 body {
     font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-image: url("https://wallpapers.com/images/hd/harry-potter-houses-stripes-1xuve798futkf6dt.jpg");
+    background-repeat: repeat;
+  }
+  
+ ul {
+  list-style-type: none;
+ }
+
+ li {
+  padding: 25px;
+ }
+
+
+
+  img {
+    width: 100%;
+    height: 100vh;
+    object-fit: fit;
   }
 
-  
-  
+  .Spells {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+  }
